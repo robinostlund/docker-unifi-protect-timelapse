@@ -39,3 +39,9 @@ docker run -dt \
     --label com.centurylinklabs.watchtower.enable='true' \
     robostlund/unifi-protect-timelapse:latest
 ```
+
+### Storage folder structure
+Each camera will have its own date folder structure as below:
+```
+/storage/<cameraname>/<year>/<month>/<date>/<hour>:<minute>.jpg
+```
