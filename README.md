@@ -19,7 +19,7 @@ ip = 192.168.0.100
 name = Front
 ip = 192.168.0.101
 ```
-This file needs to be mounted to /app.conf in the docker container.
+This file needs to be mounted to /app.conf in the docker container, check Start chapter here below on how to do that.
 
 ### Environment variables
 * `CRON` crontab schedule `0 * * * *` to perform image capture every hour
