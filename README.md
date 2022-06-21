@@ -1,4 +1,4 @@
-![Build Docker Image workflow](https://github.com/robinostlund/docker-unifi-protect-timelapse/actions/workflows/docker-build.yml/badge.svg)
+[![Docker Image CI](https://github.com/robinostlund/docker-unifi-protect-timelapse/actions/workflows/docker-build.yaml/badge.svg)](https://github.com/robinostlund/docker-unifi-protect-timelapse/actions/workflows/docker-build.yaml)
 
 # docker-unifi-protect-timelapse
 This tool collects snapshots from your ubiquiti cameras on schedule so you will be able to create a timelapse from it.
