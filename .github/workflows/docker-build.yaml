@@ -2,7 +2,7 @@ name: Docker Image CI
 on:
   push:
     branches:
-      - main
+      - master
     paths:
       - .github/workflows/docker-build.yml
       - Dockerfile
